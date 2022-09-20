@@ -1,0 +1,232 @@
+{
+  "title": {
+    "text": "Stanovení rizikového profilu klienta"
+  },
+  "pep": {
+    "label": "Klient nebo osoba mající právo na nakládání s produktem je politicky exponovaná osoba (PEP)",
+    "name": "klient nebo osoba mající právo na nakládání s produktem je politicky exponovaná osoba (PEP)",
+    "description": "",
+    "placeholder": ""
+  },
+  "fatf": {
+    "label": "Země původu klienta je vysoce rizikovou zemí dle předpisu EU nebo dle FATF",
+    "name": "země původu klienta je vysoce rizikovou zemí dle předpisu EU nebo dle FATF",
+    "description": "",
+    "placeholder": ""
+  },
+  "officeAddress": {
+    "label": "Bydliště klienta - adresa klienta je adresou úřadu",
+    "name": "bydliště klienta - adresa klienta je adresou úřadu",
+    "description": "",
+    "placeholder": ""
+  },
+  "riskProfession": {
+    "label": "Předměty činnosti nebo povolání klienta jsou spojeny s rizikem (rizikové činnosti a povolání)",
+    "name": "předměty činnosti nebo povolání klienta jsou spojeny s rizikem (rizikové činnosti a povolání)",
+    "description": "",
+    "placeholder": ""
+  },
+  "suspicion": {
+    "label": "Klient budí podezření, že nejedná na vlastní účet nebo zastírá, že plní pokyn třetí osoby",
+    "name": "klient budí podezření, že nejedná na vlastní účet nebo zastírá, že plní pokyn třetí osoby",
+    "description": "",
+    "placeholder": ""
+  },
+  "cash": {
+    "label": "Klient chce používat pouze hotovost",
+    "name": "klient chce používat pouze hotovost",
+    "description": "",
+    "placeholder": ""
+  },
+  "crime": {
+    "label": "Je známá informace, že klient spáchal v posledních 5 letech trestný čin proti majetku nebo hospodářský trestný čin",
+    "name": "je známá informace, že klient spáchal v posledních 5 letech trestný čin proti majetku nebo hospodářský trestný čin",
+    "description": "",
+    "placeholder": ""
+  },
+  "negativeInformation": {
+    "label": "Negativní informace o právnické osobě, na které má klient přímou nebo nepřímou účast nebo vykonává vliv jiným způsobem",
+    "name": "negativní informace o právnické osobě, na které má klient přímou nebo nepřímou účast nebo vykonává vliv jiným způsobem",
+    "description": "",
+    "placeholder": ""
+  },
+  "suspiciousBusiness": {
+    "label": "Obchod nebo klient vykazuje znak podezřelého obchodu",
+    "name": "obchod nebo klient vykazuje znak podezřelého obchodu",
+    "description": "",
+    "placeholder": ""
+  },
+  "sanctionSubject": {
+    "label": "Zákazník je na seznamu sankcionovaných subjektů, subjektů podezřelých ze spolupráce s terorismem nebo na seznamu nespolupracujících zemí a teritorií dle FATF",
+    "name": "zákazník je na seznamu sankcionovaných subjektů, subjektů podezřelých ze spolupráce s terorismem nebo na seznamu nespolupracujících zemí a teritorií dle FATF",
+    "description": "",
+    "placeholder": ""
+  },
+  "untrustworthyData": {
+    "label": "Zákazník sdělí společnosti nepravdivé nebo zavádějící údaje, anebo odmítne bezdůvodně sdělit či poskytnout běžné informace a podklady k obchodní operaci, nebo sdělí společnosti takové údaje, které může společnost jen obtížně ověřit nebo které jsou nedůvěryhodné.",
+    "name": "zákazník sdělí společnosti nepravdivé nebo zavádějící údaje, anebo odmítne bezdůvodně sdělit či poskytnout běžné informace a podklady k obchodní operaci, nebo sdělí společnosti takové údaje, které může společnost jen obtížně ověřit nebo které jsou nedůvěryhodné.",
+    "description": "",
+    "placeholder": ""
+  },
+  "excessiveBusinessAmount": {
+    "label": "Nadměrný počet obchodů požadovaných jedním zákazníkem",
+    "name": "nadměrný počet obchodů požadovaných jedním zákazníkem",
+    "description": "",
+    "placeholder": ""
+  },
+  "repeatedlyEstablishmentAnnulment": {
+    "label": "Opakované zakládání a rušení nových smluv na jméno zákazníka, nebo jeho rodinných příslušníků",
+    "name": "opakované zakládání a rušení nových smluv na jméno zákazníka, nebo jeho rodinných příslušníků",
+    "description": "",
+    "placeholder": ""
+  },
+  "documentDubiety": {
+    "label": "Objevují se pochybnosti o pravosti předkládaných průkazů totožnosti, příp. dalších listin a zákazník odmítá spolupracovat při odstranění těchto pochybností.",
+    "name": "objevují se pochybnosti o pravosti předkládaných průkazů totožnosti, příp. dalších listin a zákazník odmítá spolupracovat při odstranění těchto pochybností.",
+    "description": "",
+    "placeholder": ""
+  },
+  "unusualOffer": {
+    "label": "Ze strany zákazníka jsou nabízeny neobvyklé obchodní či jiné podmínky",
+    "name": "ze strany zákazníka jsou nabízeny neobvyklé obchodní či jiné podmínky",
+    "description": "",
+    "placeholder": ""
+  },
+  "illogicalMoneyTransaction": {
+    "label": "Transakce zákazníka jsou neprůhledné z hlediska jejich ekonomického cíle, nebo působí nelogicky a jejich konstrukce může signalizovat protiprávní jednání",
+    "name": "transakce zákazníka jsou neprůhledné z hlediska jejich ekonomického cíle, nebo působí nelogicky a jejich konstrukce může signalizovat protiprávní jednání",
+    "description": "",
+    "placeholder": ""
+  },
+  "unknownReasonForTransaction": {
+    "label": "Není zřejmý věcný důvod pro danou transakci, nebo není rozeznatelný vztah k běžným obchodním aktivitám zákazníka",
+    "name": "není zřejmý věcný důvod pro danou transakci, nebo není rozeznatelný vztah k běžným obchodním aktivitám zákazníka",
+    "description": "",
+    "placeholder": ""
+  },
+  "transactionOutOfCustomers": {
+    "label": "Transakce směřují mimo běžnou obchodní činnost, nebo běžný okruh zákazníků",
+    "name": "transakce směřují mimo běžnou obchodní činnost, nebo běžný okruh zákazníků",
+    "description": "",
+    "placeholder": ""
+  },
+  "atypicalTransaction": {
+    "label": "Transakce je pro daného zákazníka netypická",
+    "name": "transakce je pro daného zákazníka netypická",
+    "description": "",
+    "placeholder": ""
+  },
+  "nervousClient": {
+    "label": "Zákazník je z neznámých důvodů nervózní",
+    "name": "zákazník je z neznámých důvodů nervózní",
+    "description": "",
+    "placeholder": ""
+  },
+  "trackedClient": {
+    "label": "Zákazník je doprovázen, nebo sledován",
+    "name": "zákazník je doprovázen, nebo sledován",
+    "description": "",
+    "placeholder": ""
+  },
+  "middlemanClient": {
+    "label": "Zákazník jedná jako prostředník",
+    "name": "zákazník jedná jako prostředník",
+    "description": "",
+    "placeholder": ""
+  },
+  "atypicalWayOfTransferingMoney": {
+    "label": "Neobvyklé způsoby převozu větších finančních hotovostí (igelitové tašky, kapsy oděvů apod)",
+    "name": "neobvyklé způsoby převozu větších finančních hotovostí (igelitové tašky, kapsy oděvů apod)",
+    "description": "",
+    "placeholder": ""
+  },
+  "effortForMinimalContact": {
+    "label": "Snaha o minimální kontakt se společností a pověřování jiných osob tímto kontaktem zejména na základě plných mocí",
+    "name": "snaha o minimální kontakt se společností a pověřování jiných osob tímto kontaktem zejména na základě plných mocí",
+    "description": "",
+    "placeholder": ""
+  },
+  "taxParadise": {
+    "label": "Zákazník je občanem státu charakterizovaného dle aktuálních a notoricky známých poznatků jako tzv rizikové teritorium nebo tzv daňový ráj (pozn: národnost či etnický původ zákazníka nejsou kritériem pro poskytování služeb, či vyhodnocování obchodů jako podezřelých)",
+    "name": "zákazník je občanem státu charakterizovaného dle aktuálních a notoricky známých poznatků jako tzv rizikové teritorium nebo tzv daňový ráj (pozn: národnost či etnický původ zákazníka nejsou kritériem pro poskytování služeb, či vyhodnocování obchodů jako podezřelých)",
+    "description": "",
+    "placeholder": ""
+  },
+
+  "digitalCurrency": {
+    "label": "Transakce s digitální měnou převyšující hodnotu 1000 EUR",
+    "name": "transakce s digitální měnou převyšující hodnotu 1000 EUR",
+    "description": "",
+    "placeholder": ""
+  },
+  "middlemanClientOrTracked": {
+    "label": "Klient vystupuje, jako by jednal za někoho, nebo pro někoho jiného, je doprovázen nebo sledován další osobou nebo osobami, které zřejmě chtějí zůstat v anonymitě",
+    "name": "klient vystupuje, jako by jednal za někoho, nebo pro někoho jiného, je doprovázen nebo sledován další osobou nebo osobami, které zřejmě chtějí zůstat v anonymitě",
+    "description": "",
+    "placeholder": ""
+  },
+  "hidingIdentity": {
+    "label": "Klient vykonává činnosti, které mohou napomáhat zastření jeho totožnosti, nebo zastření totožnosti skutečného majitele.",
+    "name": "klient vykonává činnosti, které mohou napomáhat zastření jeho totožnosti, nebo zastření totožnosti skutečného majitele.",
+    "description": "",
+    "placeholder": ""
+  },
+  "unwillinglyIdentified": {
+    "label": "Klient se chová nervózně, odmítá identifikaci nebo jí podstupuje jen neochotně, případně uvádí nepravdivé údaje ke své identifikaci nebo kontrole (např. k původu peněz nebo oboru podnikání).",
+    "name": "klient se chová nervózně, odmítá identifikaci nebo jí podstupuje jen neochotně, případně uvádí nepravdivé údaje ke své identifikaci nebo kontrole (např. k původu peněz nebo oboru podnikání).",
+    "description": "",
+    "placeholder": ""
+  },
+  "crimeHistory": {
+    "label": "Je známa kriminální minulost klienta nebo styky či vazby na osoby napojené na kriminální skupiny nebo přímo páchající trestnou činnost.",
+    "name": "je známa kriminální minulost klienta nebo styky či vazby na osoby napojené na kriminální skupiny nebo přímo páchající trestnou činnost.",
+    "description": "",
+    "placeholder": ""
+  },
+  "connectionToRiskCountry": {
+    "label": "Klient má styky nebo vazby do rizikových teritoriích – pokud je známo, že klient má přechodné bydliště, podnikatelské aktivity ve vysoce rizikových zemích",
+    "name": "klient má styky nebo vazby do rizikových teritoriích – pokud je známo, že klient má přechodné bydliště, podnikatelské aktivity ve vysoce rizikových zemích",
+    "description": "",
+    "placeholder": ""
+  },
+  "propertyUnknownSource": {
+    "label": "Klient provádí převody majetku, které zjevně nemají ekonomický důvod, anebo provádí složité nebo neobvykle objemné obchody",
+    "name": "Klient provádí převody majetku, které zjevně nemají ekonomický důvod, anebo provádí složité nebo neobvykle objemné obchody",
+    "description": "",
+    "placeholder": ""
+  },
+
+  "unknownCustomer": {
+    "label": "Neznámý zákazník (bez předchozího kontaktu)",
+    "name": "neznámý zákazník (bez předchozího kontaktu)",
+    "description": "",
+    "placeholder": ""
+  },
+
+  "transactionBelowLimit": {
+    "label": "Transakce jsou prováděny ve výši těsně pod hranicí stanovené pro identifikaci nebo kontrolu klienta",
+    "name": "Transakce jsou prováděny ve výši těsně pod hranicí stanovené pro identifikaci nebo kontrolu klienta",
+    "description": "",
+    "placeholder": ""
+  },
+
+  "suspicionMiddleman": {
+    "label": "Podezření, že zákazník zastírá své jednání ve prospěch třetí osoby.",
+    "name": "podezření, že zákazník zastírá své jednání ve prospěch třetí osoby",
+    "description": "",
+    "placeholder": ""
+  },
+
+  "identificationProblem": {
+    "label": "Problémy s identifikací zákazníka nebo její odmítnutí, totéž platí při problémech s identifikací zákazníka, za nějž jedná zástupce.",
+    "name": "problémy s identifikací zákazníka nebo její odmítnutí, totéž platí při problémech s identifikací zákazníka, za nějž jedná zástupce.",
+    "description": "",
+    "placeholder": ""
+  },
+  "suspiciousMark": {
+    "label": "Uveďte znak podezřelého obchodu",
+    "name": "uveďte znak podezřelého obchodu",
+    "description": "",
+    "placeholder": ""
+  }
+}

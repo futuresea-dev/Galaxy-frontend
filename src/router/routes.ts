@@ -1,0 +1,17 @@
+export enum Routes {
+  HOME = "home",
+  NOT_FOUND = "not-found",
+  NOT_FOUND_PRIVATE = "not-found-private",
+  SIGN_IN = "sign-in",
+  DOCUMENTS = "documents",
+  INTRO_RECORDS = "intro-records",
+  DIAGNOSTICS = "diagnostics",
+  MEETING_RECORDS = "meeting-records",
+  CALCULATORS = "calculators",
+  VIDEO_MANUALS = "video-manuals",
+  DOCUMENTATIONS = "documentations",
+  SUPPORTS = "supports",
+  UIKIT = "uikit",
+  GDPR = "gdpr",
+  AML = "aml",
+}

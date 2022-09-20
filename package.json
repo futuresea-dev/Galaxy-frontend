@@ -1,0 +1,90 @@
+{
+  "name": "galaxy-frontend",
+  "version": "0.0.0",
+  "private": true,
+  "license": "proprietary",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build",
+    "ts-check": "vue-tsc --noEmit --skipLibCheck",
+    "lint": "eslint --ext .js,.vue,.ts --ignore-path .gitignore src tests tests-e2e",
+    "lint-fix": "eslint --ext .js,.vue,.ts --ignore-path .gitignore --fix src tests tests-e2e",
+    "test": "vitest --dir tests",
+    "coverage": "vitest run --coverage --dir tests",
+    "allupdate": "yarn upgrade-interactive --latest",
+    "e2e-test": "PWDEBUG=1 playwright test --headed tests-e2e",
+    "e2e-test-ci": "PLAYWRIGHT_JUNIT_OUTPUT_NAME=results.xml playwright test tests-e2e --reporter=list --reporter=junit",
+    "make-env": "make .env .env.playwright"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/pro-light-svg-icons": "^6.2.0",
+    "@fortawesome/pro-regular-svg-icons": "^6.2.0",
+    "@fortawesome/pro-solid-svg-icons": "^6.2.0",
+    "@fortawesome/pro-thin-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "axios": "^0.27.2",
+    "chart.js": "^3.9.1",
+    "chartjs-adapter-luxon": "^1.2.0",
+    "ic-validator": "^1.0.2",
+    "imask": "^6.4.3",
+    "libphonenumber-js": "^1.10.11",
+    "luxon": "^3.0.3",
+    "pinia": "^2.0.22",
+    "rodnecislo": "^1.6.0",
+    "vee-validate": "^4.6.8",
+    "vue": "^3.2.39",
+    "vue-i18n": "^9.2.0",
+    "vue-router": "^4.1.5",
+    "vuetify": "^3.0.0-beta.11",
+    "webfontloader": "^1.0.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^6.0.1",
+    "@playwright/test": "^1.25.2",
+    "@types/luxon": "^3.0.1",
+    "@types/webfontloader": "^1.6.34",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vitest/coverage-c8": "^0.23.4",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.1",
+    "@vue/test-utils": "^2.0.2",
+    "c8": "^7.12.0",
+    "dotenv": "^16.0.2",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-formatter-multiple": "^2.0.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "happy-dom": "^6.0.2",
+    "miragejs": "^0.1.44",
+    "prettier": "^2.6.2",
+    "sass": "^1.54.9",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.3",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-vuetify": "^1.0.0-alpha.17",
+    "vitest": "^0.23.4",
+    "vue-tsc": "^0.40.13"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "eslint-formatter-multiple": {
+    "formatters": [
+      {
+        "name": "stylish",
+        "output": "console"
+      },
+      {
+        "name": "junit",
+        "output": "file",
+        "path": "eslint-junit.xml"
+      }
+    ]
+  }
+}

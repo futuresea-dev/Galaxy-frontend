@@ -1,0 +1,11 @@
+{
+  "fileSize": "Soubor, který chcete nahrát je příliš velký.",
+  "fileExt": "Soubor, který nchcete nahrát nemá podporovaný formát",
+  "birthNumber": "Rodné číslo není validní",
+  "date": "Datum není validní.",
+  "phone": "Telefonní číslo není validní.",
+  "time": "Čas není validní.",
+  "email": "Email není validní.",
+  "zip": "PSČ není validní.",
+  "ic": "IČ není validní."
+}

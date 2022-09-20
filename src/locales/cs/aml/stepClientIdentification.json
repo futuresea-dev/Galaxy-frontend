@@ -1,0 +1,119 @@
+{
+  "title": {
+    "text": "Identifikace klienta"
+  },
+  "birthPlace": {
+    "label": "Místo narození",
+    "name": "místo narození",
+    "description": "",
+    "placeholder": ""
+  },
+  "countryOfOrigin": {
+    "label": "Země původu",
+    "name": "země původu",
+    "description": "",
+    "placeholder": ""
+  },
+  "otherCountryOfOrigin": {
+    "label": "Další země původu",
+    "name": "další země původu",
+    "description": "",
+    "placeholder": ""
+  },
+  "placeOfResidence": {
+    "label": "Stát (místo pobytu)",
+    "name": "stát (místo pobytu)",
+    "description": "",
+    "placeholder": ""
+  },
+  "citizenShip": {
+    "label": "Státní občanství",
+    "name": "státní občanství",
+    "description": "",
+    "placeholder": ""
+  },
+  "nextCitizenShip": {
+    "label": "Další státní občanství",
+    "name": "další státní občanství",
+    "description": "",
+    "placeholder": ""
+  },
+  "identifyVerificationMethod": {
+    "label": "Způsob ověření totožnosti",
+    "name": "způsob ověření totožnosti",
+    "description": "",
+    "placeholder": ""
+  },
+  "documentType": {
+    "label": "Typ dokumentu",
+    "name": "typ dokumentu",
+    "description": "",
+    "placeholder": ""
+  },
+  "documentValidity": {
+    "label": "Platnost dokumentu",
+    "name": "platnost dokumentu",
+    "description": "",
+    "placeholder": ""
+  },
+  "documentNumber": {
+    "label": "Číslo dokumentu",
+    "name": "číslo dokumentu",
+    "description": "",
+    "placeholder": ""
+  },
+  "issuerOfTheDocument": {
+    "label": "Vydavatel dokumentu",
+    "name": "vydavatel dokumentu",
+    "description": "",
+    "placeholder": ""
+  },
+  "clientIdentificationDate": {
+    "label": "Datum identifikace klienta",
+    "name": "datum identifikace klienta",
+    "description": "",
+    "placeholder": ""
+  },
+  "refuseIdentification": {
+    "label": "Osoba se odmítla podrobit identifikaci",
+    "name": "osoba se odmítla podrobit identifikaci",
+    "description": "",
+    "placeholder": ""
+  },
+  "doubtValidity": {
+    "label": "Jsou pochybnosti o údajích v průkazu totožnosti?",
+    "name": "jsou pochybnosti o údajích v průkazu totožnosti?",
+    "description": "",
+    "placeholder": ""
+  },
+  "sanctionList": {
+    "label": "Klient je v AML (sankčním) seznamu",
+    "name": "klient je v AML (sankčním) seznamu",
+    "description": "",
+    "placeholder": ""
+  },
+  "gender": {
+    "label": "Pohlaví",
+    "name": "pohlaví",
+    "description": "",
+    "placeholder": ""
+  },
+  "birthNumber": {
+    "label": "Rodné číslo",
+    "name": "rodné číslo",
+    "description": "",
+    "placeholder": ""
+  },
+  "clientIsForeigner": {
+    "label": "Klient je cizinec a nemá rodné číslo",
+    "name": "klient je cizinec a nemá rodné číslo",
+    "description": "",
+    "placeholder": ""
+  },
+  "birthDate": {
+    "label": "Datum narození",
+    "name": "datum narození",
+    "description": "",
+    "placeholder": ""
+  }
+}

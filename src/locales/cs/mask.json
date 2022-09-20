@@ -1,0 +1,14 @@
+{
+  "date": {
+    "label": "Input s datem",
+    "name": "input s datem",
+    "description": "",
+    "placeholder": ""
+  },
+  "phone": {
+    "label": "Telefon",
+    "name": "phone",
+    "description": "",
+    "placeholder": ""
+  }
+}

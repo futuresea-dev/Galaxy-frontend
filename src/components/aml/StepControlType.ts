@@ -1,0 +1,26 @@
+export type ResourceIrregularOption =
+  | "none"
+  | "savings"
+  | "sale"
+  | "donation"
+  | "heritage"
+  | "companySale"
+  | "propertySale"
+  | "securitiesSale"
+  | "dividends"
+  | "claimSale"
+  | "lottery"
+  | "loan"
+  | "other"
+
+export type ResourceRegularOption =
+  | "employee"
+  | "business"
+  | "employeeBusiness"
+  | "lease"
+  | "social"
+  | "socialEmployee"
+  | "socialBusiness"
+  | "other"
+
+export type AmountIncomeOption = "none" | "less20k" | "less40k" | "less60k" | "less100k" | "more100k"

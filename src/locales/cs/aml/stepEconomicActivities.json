@@ -1,0 +1,29 @@
+{
+  "title": {
+    "text": "Ekonomické aktivity klienta"
+  },
+  "clientBusiness": {
+    "label": "Pokud klient podniká, uveďte obchodní firmu",
+    "name": "pokud klient podniká, uveďte obchodní firmu",
+    "description": "",
+    "placeholder": ""
+  },
+  "position": {
+    "label": "Pokud má klient zaměstnání, uveďte pozici (funkci)",
+    "name": "pokud má klient zaměstnání, uveďte pozici (funkci)",
+    "description": "",
+    "placeholder": ""
+  },
+  "pep": {
+    "label": "Je klient politicky exponovanou osobou?",
+    "name": "je klient politicky exponovanou osobou?",
+    "description": "",
+    "placeholder": ""
+  },
+  "idNumber": {
+    "label": "IČ",
+    "name": "IČ",
+    "description": "",
+    "placeholder": ""
+  }
+}

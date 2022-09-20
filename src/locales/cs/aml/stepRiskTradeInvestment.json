@@ -1,0 +1,32 @@
+{
+  "paperBonds": {
+    "label": "Objem investice do listinných dluhopisů (CZK)",
+    "name": "objem investice do listinných dluhopisů (CZK)",
+    "description": "",
+    "placeholder": ""
+  },
+  "bookBonds": {
+    "label": "Objem investice do zaknih. dluhopisů (CZK)",
+    "name": "objem investice do zaknih. dluhopisů (CZK)",
+    "description": "",
+    "placeholder": ""
+  },
+  "collectiveInvestment": {
+    "label": "Objem investice do fondů kolekt. inv. (CZK)",
+    "name": "objem investice do fondů kolekt. inv. (CZK)",
+    "description": "",
+    "placeholder": ""
+  },
+  "yearCollectiveInvestment": {
+    "label": "Roční objem investic do fondů kol. inv. (CZK)",
+    "name": "roční objem investic do fondů kol. inv. (CZK)",
+    "description": "",
+    "placeholder": ""
+  },
+  "yearOtherInvestment": {
+    "label": "Roční objem investic do jiných inv. instrumentů (CZK)",
+    "name": "roční objem investic do jiných inv. instrumentů (CZK)",
+    "description": "",
+    "placeholder": ""
+  }
+}

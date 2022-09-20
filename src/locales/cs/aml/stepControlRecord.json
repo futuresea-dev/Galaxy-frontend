@@ -1,0 +1,297 @@
+{
+  "resourceRegular": {
+    "label": "Zdroj peněžních prostředků k obchodu - pravidelný příjem",
+    "name": "zdroj peněžních prostředků k obchodu - pravidelný příjem",
+    "description": "",
+    "placeholder": ""
+  },
+  "resourceIrregular": {
+    "label": "Zdroj peněžních prostředků k obchodu - nepravidelný příjem",
+    "name": "zdroj peněžních prostředků k obchodu - nepravidelný příjem",
+    "description": "",
+    "placeholder": ""
+  },
+  "detailedInformationBusiness": {
+    "label": "Podrobné informace k podnikání a podnikatelskému subjektu",
+    "name": "podrobné informace k podnikání a podnikatelskému subjektuě",
+    "description": "",
+    "placeholder": ""
+  },
+  "businessActivity": {
+    "label": "Hlavní nebo vedlejší podnikatelská činnost",
+    "name": "hlavní nebo vedlejší podnikatelská činnost",
+    "description": "",
+    "placeholder": ""
+  },
+  "otherRegularIncome": {
+    "label": "Pravidelný příjem - Jiné uveďte",
+    "name": "pravidelný příjem - Jiné uveďte",
+    "description": "",
+    "placeholder": ""
+  },
+  "amountOfIrregular": {
+    "label": "Výše nepravidelných / jednorázových příjmů",
+    "name": "výše nepravidelných / jednorázových příjmů",
+    "description": "",
+    "placeholder": ""
+  },
+  "amountOfRegular": {
+    "label": "Výše pravidelných příjmů",
+    "name": "výše pravidelných příjmů",
+    "description": "",
+    "placeholder": ""
+  },
+  "incomesInPast": {
+    "label": "Sdělení výše příjmů za minulá období",
+    "name": "sdělení výše příjmů za minulá období",
+    "description": "",
+    "placeholder": ""
+  },
+  "jobInfo": {
+    "label": "Sdělení informací o zaměstnavateli včetně oblasti, ve které působí",
+    "name": "sdělení informací o zaměstnavateli včetně oblasti, ve které působí",
+    "description": "",
+    "placeholder": ""
+  },
+  "savingsPeriodRealization": {
+    "label": "V jakém období byly úspory realizovány",
+    "name": "v jakém období byly úspory realizovány",
+    "description": "",
+    "placeholder": ""
+  },
+  "saleIrregularIncome": {
+    "label": "Nepravidelný příjem - Prodej - uveďte prodej čeho",
+    "name": "nepravidelný příjem - Prodej - uveďte prodej čeho",
+    "description": "",
+    "placeholder": ""
+  },
+  "donationAmount": {
+    "label": "Celková výše daru",
+    "name": "celková výše daru",
+    "description": "",
+    "placeholder": ""
+  },
+  "donor": {
+    "label": "Informace o dárci",
+    "name": "informace o dárci",
+    "description": "",
+    "placeholder": ""
+  },
+  "giftedDonorRelationship": {
+    "label": "Vztah obdarovaného k dárci Účel daru",
+    "name": "vztah obdarovaného k dárci Účel daru",
+    "description": "",
+    "placeholder": ""
+  },
+  "sourceOfDonation": {
+    "label": "Zdroj darovaných finančních prostředků",
+    "name": "zdroj darovaných finančních prostředků",
+    "description": "",
+    "placeholder": ""
+  },
+  "testatorIdentity": {
+    "label": "Identita zůstavitele",
+    "name": "identita zůstavitele",
+    "description": "",
+    "placeholder": ""
+  },
+  "heirTestatorRelationship": {
+    "label": "Vztah k zůstaviteli",
+    "name": "vztah k zůstaviteli",
+    "description": "",
+    "placeholder": ""
+  },
+  "inheritanceAcceptanceDate": {
+    "label": "Datum přijetí dědického podílu",
+    "name": "datum přijetí dědického podílu",
+    "description": "",
+    "placeholder": ""
+  },
+  "inheritanceAmount": {
+    "label": "Celková výše dědictví",
+    "name": "celková výše dědictví",
+    "description": "",
+    "placeholder": ""
+  },
+  "soldCompanyIdentity": {
+    "label": "Identita prodávané společnosti, včetně oblasti podnikání",
+    "name": "identita prodávané společnosti, včetně oblasti podnikání",
+    "description": "",
+    "placeholder": ""
+  },
+  "businessShare": {
+    "label": "Výše obchodního podílu",
+    "name": "výše obchodního podílu",
+    "description": "",
+    "placeholder": ""
+  },
+  "companySalePrice": {
+    "label": "Celková prodejní cena",
+    "name": "celková prodejní cena",
+    "description": "",
+    "placeholder": ""
+  },
+  "companySaleDate": {
+    "label": "Datum realizace prodeje",
+    "name": "datum realizace prodeje",
+    "description": "",
+    "placeholder": ""
+  },
+  "propertyIdentity": {
+    "label": "Identifikace prodávaného majetku",
+    "name": "identifikace prodávaného majetku",
+    "description": "",
+    "placeholder": ""
+  },
+  "propertySalePrice": {
+    "label": "Výše prodejní ceny",
+    "name": "výše prodejní ceny",
+    "description": "",
+    "placeholder": ""
+  },
+  "propertySaleForm": {
+    "label": "Způsob realizace prodeje (dražba, přes zprostředkovatele, soukromý prodej aj.)",
+    "name": "způsob realizace prodeje (dražba, přes zprostředkovatele, soukromý prodej aj.)",
+    "description": "",
+    "placeholder": ""
+  },
+  "propertyOwnershipLength": {
+    "label": "Délka držby vlastnického práva k předmětnému majetku",
+    "name": "délka držby vlastnického práva k předmětnému majetku",
+    "description": "",
+    "placeholder": ""
+  },
+  "propertySaleDate": {
+    "label": "Datum realizace prodeje",
+    "name": "datum realizace prodeje",
+    "description": "",
+    "placeholder": ""
+  },
+  "securitiesForm": {
+    "label": "Druh a forma cenných papírů, jejich popis",
+    "name": "druh a forma cenných papírů, jejich popis",
+    "description": "",
+    "placeholder": ""
+  },
+  "securitiesValue": {
+    "label": "Hodnota cenných papírů",
+    "name": "hodnota cenných papírů",
+    "description": "",
+    "placeholder": ""
+  },
+  "securitiesSaleForm": {
+    "label": "Způsob realizace prodeje",
+    "name": "způsob realizace prodeje",
+    "description": "",
+    "placeholder": ""
+  },
+  "securitiesSaleDate": {
+    "label": "Datum realizace prodeje",
+    "name": "datum realizace prodeje",
+    "description": "",
+    "placeholder": ""
+  },
+  "lengthInvestmentInformation": {
+    "label": "Informace k délce investice",
+    "name": "informace k délce investice",
+    "description": "",
+    "placeholder": ""
+  },
+  "dividendPayerIdentification": {
+    "label": "Identifikace subjektu, který dividendy / podíl na zisku vyplácí",
+    "name": "identifikace subjektu, který dividendy / podíl na zisku vyplácí",
+    "description": "",
+    "placeholder": ""
+  },
+  "paymentAmountForClaim": {
+    "label": "Výše úplaty za postoupení pohledávky",
+    "name": "výše úplaty za postoupení pohledávky",
+    "description": "",
+    "placeholder": ""
+  },
+  "claimValue": {
+    "label": "Nominální hodnota pohledávky (jistina a příslušenství)",
+    "name": "nominální hodnota pohledávky (jistina a příslušenství)",
+    "description": "",
+    "placeholder": ""
+  },
+  "assigneeIdentity": {
+    "label": "Identita postupníka",
+    "name": "identita postupníka",
+    "description": "",
+    "placeholder": ""
+  },
+  "clientAssigneeRelationship": {
+    "label": "Vztah klienta k postupníkovi",
+    "name": "vztah klienta k postupníkovi",
+    "description": "",
+    "placeholder": ""
+  },
+  "assignmentDate": {
+    "label": "Datum cese (postoupení)",
+    "name": "datum cese (postoupení)",
+    "description": "",
+    "placeholder": ""
+  },
+  "loanAmount": {
+    "label": "Výše a účel půjčky",
+    "name": "výše a účel půjčky",
+    "description": "",
+    "placeholder": ""
+  },
+  "creditorIdentity": {
+    "label": "Informace o věřiteli",
+    "name": "informace o věřiteli",
+    "description": "",
+    "placeholder": ""
+  },
+  "loanDate": {
+    "label": "Informace o věřiteli",
+    "name": "informace o věřiteli",
+    "description": "",
+    "placeholder": ""
+  },
+  "loanMaturity": {
+    "label": "Splatnost půjčky a existence zajištění",
+    "name": "splatnost půjčky a existence zajištění",
+    "description": "",
+    "placeholder": ""
+  },
+  "otherIrregularIncome": {
+    "label": "Nepravidelný příjem - Jiné",
+    "name": "nepravidelný příjem - Jiné",
+    "description": "",
+    "placeholder": ""
+  },
+  "otherIncomeSource": {
+    "label": "Identifikace zdroje a povaha příjmu",
+    "name": "identifikace zdroje a povaha příjmu",
+    "description": "",
+    "placeholder": ""
+  },
+  "otherIncomeDate": {
+    "label": "Datum přijetí",
+    "name": "datum přijetí",
+    "description": "",
+    "placeholder": ""
+  },
+  "additionalInformation": {
+    "label": "Doplňující informace",
+    "name": "doplňující informace",
+    "description": "",
+    "placeholder": ""
+  },
+  "pepSourceOfMoney": {
+    "label": "Klient je PEP, uveďte původ peněžních prostředků použitých k obchodu",
+    "name": "klient je PEP, uveďte původ peněžních prostředků použitých k obchodu",
+    "description": "",
+    "placeholder": ""
+  },
+  "purposeOfTrade": {
+    "label": "Účel a zamýšlená povaha obchodu",
+    "name": "účel a zamýšlená povaha obchodu",
+    "description": "",
+    "placeholder": ""
+  }
+
+}

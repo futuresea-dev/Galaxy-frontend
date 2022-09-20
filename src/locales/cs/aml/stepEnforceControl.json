@@ -1,0 +1,134 @@
+{
+  "anyFiles": {
+    "label": "Jakékoliv soubory, které byly přiloženy k záznamu o provedení zesílené kontroly a identifikace.",
+    "name": "jakékoliv soubory, které byly přiloženy k záznamu o provedení zesílené kontroly a identifikace",
+    "description": "",
+    "placeholder": ""
+  },
+  "annualReport": {
+    "label": "Daňové přiznání Výroční zpráva",
+    "name": "daňové přiznání Výroční zpráva",
+    "description": "",
+    "placeholder": ""
+  },
+  "salaryConfirmation": {
+    "label": "Potvrzení kompetentní osoby o výplatě",
+    "name": "potvrzení kompetentní osoby o výplatě",
+    "description": "",
+    "placeholder": ""
+  },
+  "incomeTaxReturnsFiles": {
+    "label": "Daňové přiznání Potvrzení o příjmech",
+    "name": "daňové přiznání Potvrzení o příjmech",
+    "description": "",
+    "placeholder": ""
+  },
+  "bankStatement": {
+    "label": "Výpis z bankovního účtu, na který byly tyto příjmy poukazovány",
+    "name": "výpis z bankovního účtu, na který byly tyto příjmy poukazovány",
+    "description": "",
+    "placeholder": ""
+  },
+  "loanContract": {
+    "label": "Smlouva",
+    "name": "smlouva",
+    "description": "",
+    "placeholder": ""
+  },
+  "documentsToSecure": {
+    "label": "Dokumenty k zajištění",
+    "name": "dokumenty k zajištění",
+    "description": "",
+    "placeholder": ""
+  },
+  "donationContract": {
+    "label": "Smlouva",
+    "name": "smlouva",
+    "description": "",
+    "placeholder": ""
+  },
+  "creditInstitutionHeritageConfirmation": {
+    "label": "Potvrzení úvěrové instituce o přijetí výplaty dědictví na účet klienta",
+    "name": "potvrzení úvěrové instituce o přijetí výplaty dědictví na účet klienta",
+    "description": "",
+    "placeholder": ""
+  },
+  "heritagePaymentReceived": {
+    "label": "Potvrzení úvěrové instituce",
+    "name": "potvrzení úvěrové instituce",
+    "description": "",
+    "placeholder": ""
+  },
+  "companySaleContract": {
+    "label": "Smlouva",
+    "name": "smlouva",
+    "description": "",
+    "placeholder": ""
+  },
+  "creditInstitutionSaleConfirmation": {
+    "label": "Potvrzení úvěrové instituce o přijetí platby spojené s prodejem",
+    "name": "potvrzení úvěrové instituce o přijetí platby spojené s prodejem",
+    "description": "",
+    "placeholder": ""
+  },
+  "propertySaleContract": {
+    "label": "Smlouva",
+    "name": "smlouva",
+    "description": "",
+    "placeholder": ""
+  },
+  "registerExtract": {
+    "label": "Výpis z registru, pokud majetek podléhá registraci",
+    "name": "výpis z registru, pokud majetek podléhá registraci",
+    "description": "",
+    "placeholder": ""
+  },
+  "securitiesSaleContract": {
+    "label": "Smlouva",
+    "name": "smlouva",
+    "description": "",
+    "placeholder": ""
+  },
+  "shareholderCertification": {
+    "label": "Osvědčení akcionáře",
+    "name": "osvědčení akcionáře",
+    "description": "",
+    "placeholder": ""
+  },
+  "auditedAnnualReport": {
+    "label": "Auditovaná výroční zpráva společnosti",
+    "name": "auditovaná výroční zpráva společnosti",
+    "description": "",
+    "placeholder": ""
+  },
+  "financialStatement": {
+    "label": "Řádná či mimořádná účetní závěrka",
+    "name": "řádná či mimořádná účetní závěrka",
+    "description": "",
+    "placeholder": ""
+  },
+  "decisionProfitPayment": {
+    "label": "Rozhodnutí o výplatě dividend / rozhodnutí o rozdělení zisku",
+    "name": "rozhodnutí o výplatě dividend / rozhodnutí o rozdělení zisku",
+    "description": "",
+    "placeholder": ""
+  },
+  "contractClaimAssignment": {
+    "label": "Smlouva o postoupení pohledávky",
+    "name": "smlouva o postoupení pohledávky",
+    "description": "",
+    "placeholder": ""
+  },
+  "proofOfClaimExistenceFiles": {
+    "label": "Doklady potvrzující existenci pohledávky",
+    "name": "doklady potvrzující existenci pohledávky",
+    "description": "",
+    "placeholder": ""
+  },
+  "otherRelevantFiles": {
+    "label": "Relevantní podpůrná dokumentace",
+    "name": "relevantní podpůrná dokumentace",
+    "description": "",
+    "placeholder": ""
+  }
+}

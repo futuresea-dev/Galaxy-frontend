@@ -1,0 +1,129 @@
+variables:
+  NODE_IMAGE: node:16.17
+  IMAGE: ${CI_REGISTRY_IMAGE}:${CI_COMMIT_REF_SLUG}
+  GCLOUD_IMAGE: gcr.io/${PROJECT_ID_PRODUCTION}
+  DOCKER_DRIVER: overlay2
+  DOCKER_HOST: tcp://localhost:2375
+  DOCKER_TLS_CERTDIR: ""
+
+cache:
+  key: $CI_COMMIT_REF_SLUG
+  paths:
+    - node_modules/
+
+stages:
+  - assets
+  - test
+  - deploy
+  - e2e
+
+assets:
+  image: ${NODE_IMAGE}
+  stage: assets
+  script:
+    - yarn install
+
+.test:
+  image: ${NODE_IMAGE}
+  needs:
+    - assets
+  stage: test
+
+lint:
+  extends: .test
+  script:
+    - yarn lint -f eslint-formatter-multiple
+  artifacts:
+    when: always
+    reports:
+      junit: eslint-junit.xml
+    expire_in: 1 week
+
+test:
+  extends: .test
+  script:
+    - yarn test --reporter default --reporter junit --outputFile junit.xml
+  artifacts:
+    when: always
+    reports:
+      junit: junit.xml
+    expire_in: 1 week
+
+ts-check:
+  extends: .test
+  script:
+    - yarn ts-check
+
+test-coverage:
+  extends: .test
+  script:
+    - yarn coverage
+  allow_failure: true
+  coverage: '/All files\s+\|\s+\d{1,2}\.\d{1,2}\s+\|/'
+  artifacts:
+    when: always
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage/cobertura-coverage.xml
+    expire_in: 1 week
+
+.deploy:
+  image: docker:19.03.12
+  stage: deploy
+  services:
+    - docker:19.03.12-dind
+  needs:
+    - assets
+  before_script:
+    - sh ci/docker_install_deploy.sh
+    - export PATH=`pwd`/google-cloud-sdk/bin:$PATH
+    - echo $DEPLOY_KEY_FILE_PRODUCTION > /tmp/$CI_PIPELINE_ID.json
+    - gcloud auth activate-service-account --key-file /tmp/$CI_PIPELINE_ID.json
+    - gcloud container clusters get-credentials ${CLUSTER_NAME} --zone europe-west1-b --project $PROJECT_ID_PRODUCTION
+    - echo ${CI_REGISTRY_PASSWORD} | docker login ${CI_REGISTRY} -u ${CI_REGISTRY_USER} --password-stdin
+    - gcloud auth configure-docker gcr.io
+  script:
+    - docker pull ${IMAGE} || true
+    - >
+      docker build --pull --cache-from=${IMAGE}
+      -t ${IMAGE}
+      -t ${GCLOUD_IMAGE}/${IMAGE_NAME}:${CI_COMMIT_REF_SLUG}
+      -t ${GCLOUD_IMAGE}/${IMAGE_NAME}:latest
+      .
+    - docker push ${IMAGE}
+    - docker push ${GCLOUD_IMAGE}/${IMAGE_NAME}:$CI_COMMIT_REF_SLUG
+    - docker push ${GCLOUD_IMAGE}/${IMAGE_NAME}:latest
+    - kubectl set image deployment/${DEPLOYMENT_NAME} frontend=${GCLOUD_IMAGE}/${IMAGE_NAME}:$CI_COMMIT_REF_SLUG --namespace=default
+  after_script:
+    - rm /tmp/$CI_PIPELINE_ID.json
+
+deploy:staging:
+  only:
+    - main
+  variables:
+    CONFIG: ${CONFIG_LOCAL}
+    DEPLOYMENT_NAME: 'galaxy-frontend'
+    IMAGE_NAME: 'galaxy-frontend'
+    CLUSTER_NAME: 'galaxy-staging'
+  extends: .deploy
+
+test-playwright:
+  variables:
+    UI_URL: https://www.smse2e.cz
+    USERNAME: ${E2E_USERNAME}
+    PASSWORD: ${E2E_PASSWORD}
+  image: mcr.microsoft.com/playwright:focal
+  stage: e2e
+  needs:
+    - assets
+  script:
+    - yarn e2e-test-ci
+  allow_failure: true
+  artifacts:
+    when: always
+    reports:
+      junit: report.xml
+    expire_in: 1 week
+
+

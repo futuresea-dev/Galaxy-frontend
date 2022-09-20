@@ -1,0 +1,14 @@
+{
+  "firstName": {
+    "label": "Jméno",
+    "name": "jméno",
+    "description": "",
+    "placeholder": ""
+  },
+  "lastName": {
+    "label": "Příjmení",
+    "name": "příjmení",
+    "description": "",
+    "placeholder": ""
+  }
+}

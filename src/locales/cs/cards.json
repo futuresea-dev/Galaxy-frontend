@@ -1,0 +1,23 @@
+{
+  "titles": {
+    "stats": "Mé statistiky",
+    "history": "Poslední záznam",
+    "persons": "Osoby",
+    "investment": "Investice",
+    "property": "Pojištění majetku",
+    "vehicle": "Pojištění automobilu",
+    "pension": "Doplňkové penzijní spoření",
+    "loan": "Úvěry a konsolidace",
+    "industry": "Pojištění prům. a podnikatelů"
+  },
+  "descriptions": {
+    "prefix": "Záznam z jednání",
+    "persons": "pojištění osob",
+    "investment": "Investice",
+    "property": "Pojištění majetku",
+    "vehicle": "Pojištění automobilu",
+    "pension": "Penzijní spoření",
+    "loan": "Úvěry a konsolidace",
+    "industry": "Pojištění prům. a podnikatelů"
+  }
+}

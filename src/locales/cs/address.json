@@ -1,0 +1,38 @@
+{
+  "street": {
+    "label": "Ulice a č.p.",
+    "name": "ulice a č.p.",
+    "description": "",
+    "placeholder": ""
+  },
+  "zip": {
+    "label": "PSČ",
+    "name": "PSČ",
+    "description": "",
+    "placeholder": ""
+  },
+  "city": {
+    "label": "Město",
+    "name": "město",
+    "description": "",
+    "placeholder": ""
+  },
+  "prefix": {
+    "label": "Předvolba",
+    "name": "předvolba",
+    "description": "",
+    "placeholder": ""
+  },
+  "phone": {
+    "label": "Telefon",
+    "name": "telefon",
+    "description": "",
+    "placeholder": ""
+  },
+  "email": {
+    "label": "Email",
+    "name": "email",
+    "description": "",
+    "placeholder": ""
+  }
+}

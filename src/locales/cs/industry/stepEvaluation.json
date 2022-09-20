@@ -1,0 +1,16 @@
+{
+  "stepEvaluation": {
+    "heroContent": "Pro vyhodnocení, zda pojištěný spadá do skupiny „velkých pojistných rizik“, je zapotřebí do níže uvedeného dotazníku zaznamenat odpovědi pojištěného.",
+    "balanceSheet": "Úhrn rozvahy nad 6.200.000 EUR?",
+    "netTurnover": "Čistý obrat nad 12.800.000 EUR?",
+    "employees": "Průměrný roční přepočtený stav zaměstnanců za zdaňovací období nad 250?",
+    "railwayVehicles": "Pojištění škod na drážních vozidlech?",
+    "aircraft": "Pojištění škod na leteckých dopravních prostředcích?",
+    "ships": "Pojištění škod na plavidlech: říčních a průplavových | jezerních | námořních ?",
+    "luggage": "Pojištění přepravovaných věcí včetně zavazadel a jiného majetku bez ohledu na použitý dopravní prostředek?",
+    "responsibilityAircraft": "Pojištění odpovědnosti za újmu vyplývající z vlastnictví nebo užití leteckého dopravního prostředku, včetně odpovědnosti dopravce?",
+    "responsibilityShips": "Pojištění odpovědnosti za újmu vyplývající z vlastnictví nebo užití říčního, průplavového, jezerního nebo námořního plavidla, včetně odpovědnosti dopravce?",
+    "loanInsurance": "Pojištění úvěru (u profesionální činnosti nebo svobodného povolání v oblasti průmyslové nebo obchodní činnosti): obecná platební neschopnost | vývozní úvěr | splátkový úvěr | hypoteční úvěr | zemědělský úvěr?",
+    "warrantyInsurance": "Pojištění záruky (kauce) u profesionální činnosti nebo svobodného povolání v oblasti průmyslové nebo obchodní činnosti: přímé záruky | nepřímé záruky?"
+  }
+}

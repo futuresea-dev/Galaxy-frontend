@@ -1,0 +1,176 @@
+{
+  "regularIncomeEmployee": {
+    "label": "Příjmy ze zaměstnání",
+    "name": "příjmy ze zaměstnání",
+    "description": "",
+    "placeholder": ""
+  },
+  "regularIncomeBusiness": {
+    "label": "Příjmy z podnikání",
+    "name": "příjmy z podnikání",
+    "description": "",
+    "placeholder": ""
+  },
+  "regularIncomeEmployeeAndBusiness": {
+    "label": "Příjmy ze zaměstnání a podnikání",
+    "name": "příjmy ze zaměstnání a podnikání",
+    "description": "",
+    "placeholder": ""
+  },
+  "regularIncomeLease": {
+    "label": "Příjmy z pronájmu",
+    "name": "příjmy z pronájmu",
+    "description": "",
+    "placeholder": ""
+  },
+  "regularIncomeSocialBenefits": {
+    "label": "Příjmy z sociálních dávek",
+    "name": "příjmy z sociálních dávek",
+    "description": "",
+    "placeholder": ""
+  },
+  "regularIncomeSocialBenefitsAndEmployee": {
+    "label": "Příjmy z sociálních dávek a ze zaměstnání",
+    "name": "příjmy z sociálních dávek a ze zaměstnání",
+    "description": "",
+    "placeholder": ""
+  },
+  "regularIncomeSocialBenefitsAndBusiness": {
+    "label": "Příjmy z sociálních dávek a z podnikání",
+    "name": "příjmy z sociálních dávek a z podnikání",
+    "description": "",
+    "placeholder": ""
+  },
+  "regularIncomeOther": {
+    "label": "Jiné příjmy - uveďte",
+    "name": "jiné příjmy - uveďte",
+    "description": "",
+    "placeholder": ""
+  },
+  "doubtsInformation": {
+    "label": "Jsou pochybnosti o informacích, předložených dokladech?",
+    "name": "jsou pochybnosti o informacích, předložených dokladech?",
+    "description": "",
+    "placeholder": ""
+  },
+  "refusedInspections": {
+    "label": "Klient odmítl poskytnout součinnost při provádění kontroly",
+    "name": "klient odmítl poskytnout součinnost při provádění kontroly",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeNone": {
+    "label": "Žádný",
+    "name": "žádný",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeSavings": {
+    "label": "Úspory z příjmu",
+    "name": "úspory z příjmu",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeSale": {
+    "label": "Prodej - uveďte",
+    "name": "prodej - uveďte",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeDonation": {
+    "label": "Dar",
+    "name": "dar",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeHeritage": {
+    "label": "Dědictví",
+    "name": "dědictví",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeCompanySale": {
+    "label": "Prodej společnosti nebo části",
+    "name": "prodej společnosti nebo části",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomePropertySale": {
+    "label": "Prodej majetku",
+    "name": "prodej majetku",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeSecuritiesSale": {
+    "label": "Prodej cenných papírů",
+    "name": "prodej cenných papírů",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeDividends": {
+    "label": "Výplata dividend, podílu na zisku",
+    "name": "výplata dividend, podílu na zisku",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeClaimSale": {
+    "label": "Prodej pohledávky",
+    "name": "prodej pohledávky",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeLottery": {
+    "label": "Výhra v soutěži, loterii",
+    "name": "výhra v soutěži, loterii",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeLoan": {
+    "label": "Úvěr",
+    "name": "úvěr",
+    "description": "",
+    "placeholder": ""
+  },
+  "irregularIncomeOther": {
+    "label": "Jiné - uveďte",
+    "name": "jiné - uveďte",
+    "description": "",
+    "placeholder": ""
+  },
+  "amountRegularIncomeNone": {
+    "label": "Nejsou",
+    "name": "nejsou",
+    "description": "",
+    "placeholder": ""
+  },
+  "amountRegularIncomeLess20k": {
+    "label": "Do 20 000 CZK",
+    "name": "do 20 000 CZK",
+    "description": "",
+    "placeholder": ""
+  },
+  "amountRegularIncomeLess40k": {
+    "label": "Do 40 000 CZK",
+    "name": "do 40 000 CZK",
+    "description": "",
+    "placeholder": ""
+  },
+  "amountRegularIncomeLess60k": {
+    "label": "Do 60 000 CZK",
+    "name": "do 60 000 CZK",
+    "description": "",
+    "placeholder": ""
+  },
+  "amountRegularIncomeLess100k": {
+    "label": "Do 100 000 CZK",
+    "name": "do 100 000 CZK",
+    "description": "",
+    "placeholder": ""
+  },
+  "amountRegularIncomeMore100k": {
+    "label": "Více než 100 000 CZK",
+    "name": "více než 100 000 CZK",
+    "description": "",
+    "placeholder": ""
+  }
+}

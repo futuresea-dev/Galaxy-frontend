@@ -1,0 +1,77 @@
+@use 'vuetify/lib/styles/main' with ($body-font-family: 'Open Sans');
+
+.v-main {
+  min-height: 70vh;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font-stretch-normal {
+  font-stretch: normal;
+}
+
+.font-stretch-condensed {
+  font-stretch: condensed;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.v-card-title {
+  font-family: 'Open Sans', sans-serif;
+  font-stretch: 75%;
+}
+
+.v-app-bar-title.v-toolbar-title {
+  font-family: 'Open Sans', sans-serif;
+  font-stretch: 75%;
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.text-h1,
+.text-h2,
+.text-h3,
+.text-h4,
+.text-h5,
+.text-h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-stretch: 75%;
+  font-weight: 300;
+}
+
+.v-label {
+  opacity: 1;
+}
+
+.v-field-label {
+  color: #8e271f;
+}
+
+.v-field--active {
+  .v-field-label {
+    color: #a22c32;
+  }
+}
+
+.v-field__outline {
+  color: #8e271f;
+  opacity: 1;
+}
+
+.v-field--variant-filled .v-field__outline::before,
+.v-field--variant-underlined .v-field__outline::before {
+  opacity: 1;
+}
+
+.v-field--active.v-field--variant-filled .v-field__outline::after,
+.v-field--active.v-field--variant-underlined .v-field__outline::after {
+  background: linear-gradient(135deg, #a22c32 0%, #562cde 100%);
+  border: none;
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

@@ -1,0 +1,17 @@
+{
+  "types": {
+    "new": "Nový záznam",
+    "overview": "Přehled",
+    "continue": "Pokračovat",
+    "edit": "Upravit",
+    "delete": "Smazat",
+    "save": "Uložit",
+    "cancel": "Zrušit",
+    "close": "Zavřít",
+    "back": "Zpět",
+    "next": "Další",
+    "previous": "Předchozí",
+    "finish": "Dokončit",
+    "more": "Více k tématu"
+  }
+}
