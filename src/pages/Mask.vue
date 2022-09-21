@@ -70,7 +70,7 @@ export default defineComponent({
     ZipInput,
   },
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     const { handleSubmit } = useForm<MaskForm>({
       validationSchema: object({
         date: dateValidator().label(t("mask.date.name")).required(),

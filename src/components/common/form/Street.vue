@@ -42,7 +42,7 @@ export default defineComponent({
       }, 300)
     }
 
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     return {
       onChange,
       t,

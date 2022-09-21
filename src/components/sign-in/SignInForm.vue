@@ -63,7 +63,7 @@ type SignInForm = {
 export default defineComponent({
   components: { SubmitPrimaryLight, TextInput },
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     const { handleSubmit } = useForm<SignInForm>({
       initialValues: {
         username: "user",

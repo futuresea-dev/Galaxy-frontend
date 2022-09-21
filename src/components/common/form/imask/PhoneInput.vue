@@ -13,7 +13,7 @@ import { convertToInt } from "../../../../services/cast"
 export default defineComponent({
   components: { MaskInput },
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     const callback = (val: IMask.InputMask<IMaskType>) => {
       if (!val.value) {
         return 0

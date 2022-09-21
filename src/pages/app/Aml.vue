@@ -117,7 +117,7 @@ export default defineComponent({
     FormPageLayout,
   },
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
 
     const { values, handleSubmit } = useForm<AmlForm>({
       initialValues: {

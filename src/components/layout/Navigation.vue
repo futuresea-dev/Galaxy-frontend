@@ -72,7 +72,7 @@ import { useRequest, useRequestLoading } from "../../requestor"
 export default defineComponent({
   name: "Navigation",
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     const route = useRoute()
     const router = useRouter()
     const userStore = useUserStore()

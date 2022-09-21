@@ -49,7 +49,7 @@ export default defineComponent({
     MeetingRecordBoxInvestment,
   },
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     const recordBoxStore = useRecordBoxStore()
     recordBoxStore.fill()
     return {

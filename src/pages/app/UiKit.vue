@@ -36,7 +36,7 @@ import Chart from "../../components/chart.vue"
 export default defineComponent({
   components: { BackButton, ContinueButton, OverviewButton, SubmitPrimaryDark, SubmitPrimaryLight, Chart },
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     return {
       Icons,
       t,

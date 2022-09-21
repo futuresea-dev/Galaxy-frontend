@@ -39,7 +39,7 @@ import { Icons } from "../../services/icons"
 export default defineComponent({
   name: "TopBar",
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     const route = useRoute()
     const userStore = useUserStore()
     const { initials, fullName, img } = storeToRefs(userStore)

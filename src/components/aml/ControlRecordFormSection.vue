@@ -199,7 +199,7 @@ export default defineComponent({
     },
   },
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     const yesOrNoList = useYesOrNoList()
 
     const amountIncomeList = ref<Array<{ title: string; value: string }>>([

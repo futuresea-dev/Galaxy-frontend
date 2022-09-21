@@ -21,7 +21,7 @@ import { useRecordBoxStore } from "../../store/recordBox"
 export default defineComponent({
   components: { MeetingRecordBox },
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     const recordBoxStore = useRecordBoxStore()
     return {
       t,

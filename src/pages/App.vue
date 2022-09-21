@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    
     <Navigation />
     <TopBar id="topbar" />
     <v-main>

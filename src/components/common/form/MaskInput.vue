@@ -18,7 +18,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onBeforeUnmount, onMounted, PropType, ref } from "vue"
+import { defineComponent, onBeforeMount, onBeforeUnmount, onMounted, onUpdated, PropType, ref } from "vue"
 import IMask from "imask"
 import { useField } from "vee-validate"
 import BaseInput from "./BaseInput.vue"
@@ -71,6 +71,7 @@ export default defineComponent({
       maskInput.value = convertToString(value.value)
       formattedValue.value = maskInput.value
     })
+
 
     onBeforeUnmount(() => {
       if (maskInput) {

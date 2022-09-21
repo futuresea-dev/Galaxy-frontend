@@ -6,7 +6,7 @@ export type YesOrNo = "yes" | "no"
 export type YesOrNoList = Array<{ title: string; value: YesOrNo }>
 
 export const useYesOrNoList = () => {
-  const { t } = useI18n()
+  const { t } = useI18n({ useScope: 'global' })
 
   return ref<YesOrNoList>([
     {

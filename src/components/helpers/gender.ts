@@ -6,7 +6,7 @@ export type Gender = "man" | "woman"
 export type GenderList = Array<{ title: string; value: Gender }>
 
 export const useGenderList = () => {
-  const { t } = useI18n()
+  const { t } = useI18n({ useScope: 'global' })
 
   return ref<GenderList>([
     { title: t("gender.man"), value: "man" },

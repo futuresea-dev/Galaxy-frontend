@@ -12,7 +12,7 @@ import { useI18n } from "vue-i18n"
 export default defineComponent({
   components: { MaskInput },
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     const callback = (val: IMask.InputMask<IMaskType>) => {
       return val.value
     }

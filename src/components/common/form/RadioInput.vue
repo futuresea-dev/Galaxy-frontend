@@ -35,7 +35,7 @@ export default defineComponent({
   },
   setup(props) {
     const { value, errorMessage } = useField(props.name)
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
     return {
       Icons,
       value,

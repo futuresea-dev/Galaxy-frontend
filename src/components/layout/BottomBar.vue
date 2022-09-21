@@ -38,7 +38,7 @@ import { Icons } from "../../services/icons"
 export default defineComponent({
   name: "BottomBar",
   setup() {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
 
     return {
       socials: [

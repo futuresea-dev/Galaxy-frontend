@@ -14,12 +14,12 @@ export const i18n = createI18n({
   locale: "cs",
   fallbackLocale: "cs",
   messages,
-  globalInjection: false,
+  globalInjection: true,
 })
 
 export const tSubKey = (...args: string[]) => {
   return (key: string) => {
-    const { t } = useI18n()
+    const { t } = useI18n({ useScope: 'global' })
 
     return t(`${args.join(".")}.${key}`)
   }
